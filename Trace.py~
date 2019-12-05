@@ -1,0 +1,91 @@
+"""
+When running the program, use:
+>>>python Trace.py > Trace2dis.dat>&1   
+or add to bashrc
+alias soundbug='python Trace.py > code2Trace.dat>&1'
+
+"""
+
+import sys
+import trace
+import dis
+
+tracer = trace.Trace(
+       ignoredirs=[sys.prefix, sys.exec_prefix],
+       trace=1,
+       count = 0, infile=None, outfile=None) #will be given an outfile in final code
+
+
+def hello():
+       print("Hello, World!")
+
+def test_for_loop():
+    out = ""
+    for i in range(5):
+        out = out + str(i)
+    print(out)
+
+
+def test_import():
+    import math
+    print(math.pi, math.e)
+    print(math.sin(2))
+    from math import sqrt
+    print(sqrt(2))
+
+def test_recursion():
+    def fact(n):
+        if n <= 1:
+            return 1
+        else:
+            return n * fact(n-1)
+    f6 = fact(6)
+    print(f6)
+
+def bubble_sort_bad(nums):
+    for i in range(len(nums) - 1):
+        if nums[i] > nums[i + 1]:
+               # Swap the elements
+               nums[i], nums[i + 1] = nums[i + 1], nums[i]
+
+def bubble_sort_good(nums):
+    # We set swapped to True so the loop looks runs at least once
+    swapped = True
+    while swapped:
+        swapped = False
+        for i in range(len(nums) - 1):
+            if nums[i] > nums[i + 1]:
+                # Swap the elements
+                nums[i], nums[i + 1] = nums[i + 1], nums[i]
+                # Set the flag to True so we'll loop again
+                swapped = True
+
+
+def dis_track():
+       #take in the Trace2dis.dat file line by line and output the dis
+       pass
+
+
+
+
+def main():
+       random_list_of_nums = [12, 8, 3, 20, 11]
+       bubble_sort_bad(random_list_of_nums)
+       print('bad: ', random_list_of_nums)
+       bubble_sort_good(random_list_of_nums)
+       print('good: ', random_list_of_nums)
+
+
+#dis.dis(main)
+
+tracer.run('main()')
+
+
+
+results = tracer.results()
+results.write_results(show_missing=False,summary=False,coverdir=".")
+
+print('**EOT**')
+
+
+

@@ -1,0 +1,228 @@
+
+"""
+
+
+"""
+import constants
+import containers
+import events
+import fileio
+import sequencer
+import util
+
+global Tempo
+global Notelength
+
+global pop_ins
+global rotate_ins
+global load_ins
+global store_ins
+global get_ins
+global break_ins
+global continue_ins
+global delete_ins
+global make_ins
+global import_ins
+global bit_ins
+
+
+
+# Instantiate a MIDI Pattern (contains a list of tracks)
+pattern = containers.Pattern()
+# Instantiate a MIDI Track (contains a list of MIDI events)
+track = containers.Track()
+# Append the track to the pattern
+pattern.append(track)
+events.EndofTrackEvent(tick=1, data =[])
+# Instantiate a MIDI note on event, append it to the track
+on = events.NoteOnEvent(tick=0, velocity=20, pitch=64)
+#track.append(on)
+# Instantiate a MIDI note off event, append it to the track
+off = events.NoteOffEvent(tick=100, pitch=64)
+#track.append(off)
+
+Dict = {1: 'LOAD', 2: 'STORE', 3:'POP', 4: 'ROT', 5: 'GET', 6: 'BREAK', 7: 'CONT', 8: 'DEL', 9: 'BUILD', 10: 'IMPORT', 11: 'INPLACE'}
+
+
+#change these according to preference
+Tempo= 2
+Notelength = 2
+
+pop_ins = 127       #Applause
+rotate_ins = 10
+load_ins = 118      #Tom drum
+store_ins = 114     #Agogo woodblock
+get_ins = 14
+break_ins = 80      #Ocarina
+continue_ins = 16
+delete_ins = 17
+make_ins = 18
+import_ins = 19
+bit_ins = 20
+
+def pop_sound(ticktime):
+    cc= events.ProgramChangeEvent(tick=100, channel = 1, value = pop_ins)
+    track.append(cc)
+    on=events.NoteOnEvent(channel=1, tick=ticktime, velocity=90, pitch=64)
+    track.append(on)
+    #ticktime+=Notelength+Tempo
+    off=events.NoteOffEvent( tick= ticktime+Notelength+Tempo, pitch=64, channel=1 )                               
+    track.append(off)
+    return ticktime
+
+def rotate_sound(ticktime):
+    cc= events.ProgramChangeEvent(tick=100, channel = 2, value = rotate_ins)
+    track.append(cc)
+    on=events.NoteOnEvent(channel=2, tick=ticktime, velocity=90, pitch=64)
+    track.append(on)
+    #ticktime+=Notelength+Tempo
+    off=events.NoteOffEvent( tick= ticktime+Notelength+Tempo, pitch=64, channel=2 )
+    track.append(off)
+    return ticktime 
+
+def load_sound(ticktime):
+    cc= events.ProgramChangeEvent(tick=100, channel = 3, value = load_ins)
+    track.append(cc)
+    on=events.NoteOnEvent(channel=3, tick=ticktime+Tempo, velocity=90, pitch=32)
+    track.append(on)
+    #ticktime+=Notelength+Tempo
+    off=events.NoteOffEvent( tick= ticktime+Notelength+Tempo, pitch=32, channel=3 )
+    track.append(off)
+    return ticktime 
+
+def store_sound(ticktime):
+    cc= events.ProgramChangeEvent(tick=100, channel = 4, value = store_ins)
+    track.append(cc)
+    on=events.NoteOnEvent(channel=4, tick=ticktime+Tempo, velocity=90, pitch=35)
+    track.append(on)
+    #ticktime+=Notelength+Tempo
+    off=events.NoteOffEvent( tick= ticktime+Notelength+Tempo, pitch=35, channel=4 )
+    track.append(off)
+    return ticktime 
+
+def get_sound(ticktime):
+    cc= events.ProgramChangeEvent(tick=100, channel = 5, value = get_ins)
+    track.append(cc)
+    on=events.NoteOnEvent(channel=5, tick=ticktime+Tempo, velocity=90, pitch=90)
+    track.append(on)
+    #ticktime+=Notelength+Tempo
+    off=events.NoteOffEvent( tick= ticktime+Notelength+Tempo, pitch=90, channel=5 )
+    track.append(off)
+    return ticktime 
+    
+def break_sound(ticktime):
+    cc= events.ProgramChangeEvent(tick=100, channel = 6, value = break_ins)
+    track.append(cc)
+    on=events.NoteOnEvent(channel=6, tick=ticktime+Tempo, velocity=90, pitch=59)
+    track.append(on)
+    #ticktime+=Notelength+Tempo
+    off=events.NoteOffEvent( tick= ticktime+Notelength+Tempo, pitch=59, channel=6 )
+    track.append(off)
+    return ticktime 
+
+def continue_sound(ticktime):
+    cc= events.ProgramChangeEvent(tick=100, channel = 7, value = continue_ins)
+    track.append(cc)
+    on=events.NoteOnEvent(channel=7, tick=ticktime+Tempo, velocity=90, pitch=64)
+    track.append(on)
+    #ticktime+=Notelength+Tempo
+    off=events.NoteOffEvent( tick= ticktime+Notelength+Tempo, pitch=64, channel=7 )
+    track.append(off)
+    return ticktime 
+
+def delete_sound(ticktime):
+    cc= events.ProgramChangeEvent(tick=100, channel = 8, value = delete_ins)
+    track.append(cc)
+    on=events.NoteOnEvent(channel=8, tick=ticktime+Tempo, velocity=90, pitch=64)
+    track.append(on)
+    #ticktime+=Notelength+Tempo
+    off=events.NoteOffEvent( tick= ticktime+Notelength+Tempo, pitch=64, channel=8 )
+    track.append(off)
+    return ticktime 
+
+def slice_sound(ticktime):
+    cc= events.ProgramChangeEvent(tick=100, channel = 9, value = make_ins)
+    track.append(cc)
+    on=events.NoteOnEvent(channel=9, tick=ticktime+Tempo, velocity=90, pitch=64)
+    track.append(on)
+    #ticktime+=Notelength+Tempo
+    off=events.NoteOffEvent( tick= ticktime+Notelength+Tempo, pitch=64, channel=9 )
+    track.append(off)
+    return ticktime 
+
+def import_sound(ticktime):
+    cc= events.ProgramChangeEvent(tick=100, channel = 10, value = import_ins)
+    track.append(cc)
+    on=events.NoteOnEvent(channel=10, tick=ticktime+Tempo, velocity=90, pitch=64)
+    track.append(on)
+    #ticktime+=Notelength+Tempo
+    off=events.NoteOffEvent( tick= ticktime+Notelength+Tempo, pitch=64, channel=10 )
+    track.append(off)
+    return ticktime 
+
+def bit_sound(ticktime):
+    cc= events.ProgramChangeEvent(tick=100, channel = 11, value = bit_ins)
+    track.append(cc)
+    on=events.NoteOnEvent(channel=11, tick=ticktime+Tempo, velocity=90, pitch=64)
+    track.append(on)
+    #ticktime+=Notelength+Tempo
+    off=events.NoteOffEvent( tick= ticktime+Notelength+Tempo, pitch=64, channel=11 )
+    track.append(off)
+    return ticktime 
+
+
+BREAK = ['BREAK', 'JUMP', 'CALL']
+MAKE = ['BUILD', 'MAKE']
+BITS = ['INPLACE', 'BINARY', 'UNARY', 'DUP']
+
+with open('trace2Dis.dat') as t2D:
+    cnt=1
+    for line in t2D:
+        #read_line = t2D.readline()
+        if (line == '**EOD**'):
+            t2D.close()
+            break
+
+        if ("SLICE" not in line):        
+            #process as a midi event
+            t=line.split()
+            try: msg_pitch = int(t[2])
+            except: msg_pitch = 30
+            try:
+                current = (t[1])
+                print current
+            except:
+                print('All Done!')
+                break
+
+            if ('LOAD' in t[1]):
+                cnt = load_sound(cnt)
+
+            if ('STORE' in t[1]):
+                cnt = store_sound(cnt)
+
+             
+            if ('POP' in t[1]):
+                cnt = pop_sound(cnt)
+
+            for i in BREAK:
+                if ( i in t[1]):
+                    cnt = break_sound(cnt)
+            
+
+
+            
+
+
+
+
+# Add the end of track event, append it to the track
+eot = events.EndOfTrackEvent(tick=1)
+track.append(eot)
+# Print out the pattern
+#print pattern
+# Save the pattern to disk
+fileio.write_midifile("example.mid", pattern)
+
+#pattern = fileio.read_midifile('example.mid')
+#print pattern

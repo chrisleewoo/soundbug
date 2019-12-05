@@ -1,0 +1,115 @@
+ --- modulename: Trace, funcname: <module>
+<string>(1):   --- modulename: Trace, funcname: main
+Trace.py(260):     random_list_of_nums = [12, 8, 3, 20, 11]
+Trace.py(262):     quick_sort(random_list_of_nums)
+ --- modulename: Trace, funcname: quick_sort
+Trace.py(247):     def _quick_sort(items, low, high):
+Trace.py(254):     _quick_sort(nums, 0, len(nums) - 1)
+ --- modulename: Trace, funcname: _quick_sort
+Trace.py(248):         if low < high:
+Trace.py(250):             split_index = partition(items, low, high)
+ --- modulename: Trace, funcname: partition
+Trace.py(225):     pivot = nums[(low + high) // 2]
+Trace.py(226):     i = low - 1
+Trace.py(227):     j = high + 1
+Trace.py(228):     while True:
+Trace.py(229):         i += 1
+Trace.py(230):         while nums[i] < pivot:
+Trace.py(233):         j -= 1
+Trace.py(234):         while nums[j] > pivot:
+Trace.py(235):             j -= 1
+Trace.py(234):         while nums[j] > pivot:
+Trace.py(235):             j -= 1
+Trace.py(234):         while nums[j] > pivot:
+Trace.py(237):         if i >= j:
+Trace.py(242):         nums[i], nums[j] = nums[j], nums[i]
+Trace.py(228):     while True:
+Trace.py(229):         i += 1
+Trace.py(230):         while nums[i] < pivot:
+Trace.py(233):         j -= 1
+Trace.py(234):         while nums[j] > pivot:
+Trace.py(235):             j -= 1
+Trace.py(234):         while nums[j] > pivot:
+Trace.py(237):         if i >= j:
+Trace.py(238):             return j
+Trace.py(251):             _quick_sort(items, low, split_index)
+ --- modulename: Trace, funcname: _quick_sort
+Trace.py(248):         if low < high:
+Trace.py(252):             _quick_sort(items, split_index + 1, high)
+ --- modulename: Trace, funcname: _quick_sort
+Trace.py(248):         if low < high:
+Trace.py(250):             split_index = partition(items, low, high)
+ --- modulename: Trace, funcname: partition
+Trace.py(225):     pivot = nums[(low + high) // 2]
+Trace.py(226):     i = low - 1
+Trace.py(227):     j = high + 1
+Trace.py(228):     while True:
+Trace.py(229):         i += 1
+Trace.py(230):         while nums[i] < pivot:
+Trace.py(231):             i += 1
+Trace.py(230):         while nums[i] < pivot:
+Trace.py(233):         j -= 1
+Trace.py(234):         while nums[j] > pivot:
+Trace.py(237):         if i >= j:
+Trace.py(242):         nums[i], nums[j] = nums[j], nums[i]
+Trace.py(228):     while True:
+Trace.py(229):         i += 1
+Trace.py(230):         while nums[i] < pivot:
+Trace.py(233):         j -= 1
+Trace.py(234):         while nums[j] > pivot:
+Trace.py(235):             j -= 1
+Trace.py(234):         while nums[j] > pivot:
+Trace.py(237):         if i >= j:
+Trace.py(238):             return j
+Trace.py(251):             _quick_sort(items, low, split_index)
+ --- modulename: Trace, funcname: _quick_sort
+Trace.py(248):         if low < high:
+Trace.py(250):             split_index = partition(items, low, high)
+ --- modulename: Trace, funcname: partition
+Trace.py(225):     pivot = nums[(low + high) // 2]
+Trace.py(226):     i = low - 1
+Trace.py(227):     j = high + 1
+Trace.py(228):     while True:
+Trace.py(229):         i += 1
+Trace.py(230):         while nums[i] < pivot:
+Trace.py(233):         j -= 1
+Trace.py(234):         while nums[j] > pivot:
+Trace.py(235):             j -= 1
+Trace.py(234):         while nums[j] > pivot:
+Trace.py(237):         if i >= j:
+Trace.py(238):             return j
+Trace.py(251):             _quick_sort(items, low, split_index)
+ --- modulename: Trace, funcname: _quick_sort
+Trace.py(248):         if low < high:
+Trace.py(252):             _quick_sort(items, split_index + 1, high)
+ --- modulename: Trace, funcname: _quick_sort
+Trace.py(248):         if low < high:
+Trace.py(252):             _quick_sort(items, split_index + 1, high)
+ --- modulename: Trace, funcname: _quick_sort
+Trace.py(248):         if low < high:
+Trace.py(250):             split_index = partition(items, low, high)
+ --- modulename: Trace, funcname: partition
+Trace.py(225):     pivot = nums[(low + high) // 2]
+Trace.py(226):     i = low - 1
+Trace.py(227):     j = high + 1
+Trace.py(228):     while True:
+Trace.py(229):         i += 1
+Trace.py(230):         while nums[i] < pivot:
+Trace.py(233):         j -= 1
+Trace.py(234):         while nums[j] > pivot:
+Trace.py(237):         if i >= j:
+Trace.py(242):         nums[i], nums[j] = nums[j], nums[i]
+Trace.py(228):     while True:
+Trace.py(229):         i += 1
+Trace.py(230):         while nums[i] < pivot:
+Trace.py(233):         j -= 1
+Trace.py(234):         while nums[j] > pivot:
+Trace.py(237):         if i >= j:
+Trace.py(238):             return j
+Trace.py(251):             _quick_sort(items, low, split_index)
+ --- modulename: Trace, funcname: _quick_sort
+Trace.py(248):         if low < high:
+Trace.py(252):             _quick_sort(items, split_index + 1, high)
+ --- modulename: Trace, funcname: _quick_sort
+Trace.py(248):         if low < high:
+**EOT**

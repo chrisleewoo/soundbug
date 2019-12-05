@@ -1,0 +1,1743 @@
+          0 SLICE+2        
+          1 SLICE+2        
+          2 SLICE+2        
+          3 SLICE+2        
+          4 SLICE+2        
+          5 POP_JUMP_IF_FALSE 28257
+          8 LOAD_CONST      28015 (28015)
+         11 STORE_ATTR      26988 (26988)
+         14 POP_JUMP_IF_TRUE 24436
+         17 JUMP_IF_FALSE_OR_POP 24422
+         20 JUMP_FORWARD    28021 (to 28044)
+         23 POP_JUMP_IF_TRUE 15648
+         26 SLICE+2        
+         27 DELETE_NAME     12849 (12849)
+         30 <44>           
+         31 SLICE+2        
+         32 INPLACE_SUBTRACT
+         33 <44>           
+         34 SLICE+2        
+         35 DELETE_SLICE+1 
+         36 <44>           
+         37 SLICE+2        
+         38 DELETE_SLICE+0 
+         39 <48>           
+         40 <44>           
+         41 SLICE+2        
+         42 <49>           
+         43 <49>           
+         44 FOR_ITER         8202 (to 8249)
+         47 SLICE+2        
+         48 SLICE+2        
+         49 SLICE+2        
+         50 SLICE+2        
+         51 JUMP_ABSOLUTE   26997
+         54 DUP_TOPX        24427
+         57 POP_JUMP_IF_TRUE 29295
+         60 LOAD_GLOBAL     29224 (29224)
+         63 STORE_GLOBAL    25710 (25710)
+         66 JUMP_IF_FALSE_OR_POP 24429
+         69 IMPORT_NAME     29545 (29545)
+         72 LOAD_GLOBAL     28511 (28511)
+         75 BUILD_TUPLE     28255
+         78 <117>           29549
+         81 STORE_SLICE+1  
+         82 UNARY_POSITIVE 
+         83 SLICE+2        
+         84 SLICE+2        
+         85 SLICE+2        
+         86 SLICE+2        
+         87 SLICE+2        
+         88 LOAD_CONST      26213 (26213)
+         91 SLICE+2        
+         92 STORE_ATTR      30065 (30065)
+         95 BUILD_MAP       27491
+         98 STORE_ATTR      28531 (28531)
+        101 POP_JUMP_IF_FALSE 10356
+        104 BUILD_MAP       25972
+        107 IMPORT_FROM     11379 (11379)
+        110 SLICE+2        
+        111 IMPORT_NAME     30575 (30575)
+        114 <44>           
+        115 SLICE+2        
+        116 BUILD_SET       26473
+        119 BUILD_SET       14889
+        122 UNARY_POSITIVE 
+        123 SLICE+2        
+        124 SLICE+2        
+        125 SLICE+2        
+        126 SLICE+2        
+        127 SLICE+2        
+        128 STORE_ATTR      30065 (30065)
+        131 BUILD_MAP       27491
+        134 STORE_ATTR      28531 (28531)
+        137 POP_JUMP_IF_FALSE 10356
+        140 JUMP_FORWARD    28021 (to 28164)
+        143 POP_JUMP_IF_TRUE  8236
+        146 <48>           
+        147 <44>           
+        148 SLICE+2        
+        149 IMPORT_NAME     28261 (28261)
+        152 STORE_SLICE+0  
+        153 JUMP_FORWARD    28021 (to 28177)
+        156 POP_JUMP_IF_TRUE  8233
+        159 <45>           
+        160 SLICE+2        
+        161 <49>           
+        162 STORE_SLICE+1  
+        163 UNARY_POSITIVE 
+        164 SLICE+2        
+        165 SLICE+2        
+        166 SLICE+2        
+        167 SLICE+2        
+        168 SLICE+2        
+        169 SLICE+2        
+        170 SLICE+2        
+        171 SLICE+2        
+        172 SLICE+2        
+        173 BUILD_MAP        8294
+        176 IMPORT_NAME     30575 (30575)
+        179 SLICE+2        
+        180 STORE_SUBSCR   
+        181 SLICE+2        
+        182 BUILD_SET       26473
+        185 BUILD_SET        2618
+        188 SLICE+2        
+        189 SLICE+2        
+        190 SLICE+2        
+        191 SLICE+2        
+        192 SLICE+2        
+        193 SLICE+2        
+        194 SLICE+2        
+        195 SLICE+2        
+        196 SLICE+2        
+        197 SLICE+2        
+        198 SLICE+2        
+        199 SLICE+2        
+        200 SLICE+2        
+        201 POP_JUMP_IF_TRUE 27760
+        204 BUILD_MAP       24436
+        207 BUILD_MAP       25710
+        210 LOAD_NAME        8312 (8312)
+        213 DELETE_SUBSCR  
+        214 SLICE+2        
+        215 JUMP_IF_TRUE_OR_POP 29281
+        218 LOAD_GLOBAL     29801 (29801)
+        221 BUILD_MAP       28271
+        224 STORE_SLICE+0  
+        225 BUILD_MAP       25972
+        228 IMPORT_FROM     11379 (11379)
+        231 SLICE+2        
+        232 IMPORT_NAME     30575 (30575)
+        235 <44>           
+        236 SLICE+2        
+        237 BUILD_SET       26473
+        240 BUILD_SET        2601
+        243 SLICE+2        
+        244 SLICE+2        
+        245 SLICE+2        
+        246 SLICE+2        
+        247 SLICE+2        
+        248 JUMP_IF_TRUE_OR_POP 30313
+        251 JUMP_IF_FALSE_OR_POP  8308
+        254 DELETE_SUBSCR  
+        255 SLICE+2        
+        256 JUMP_FORWARD    28021 (to 28280)
+        259 POP_JUMP_IF_TRUE 10331
+        262 IMPORT_NAME     30575 (30575)
+        265 SLICE+2        
+        266 STORE_SLICE+3  
+        267 SLICE+2        
+        268 BUILD_SET       26473
+        271 BUILD_SET        8233
+        274 <47>           
+        275 <47>           
+        276 SLICE+2        
+        277 DELETE_SLICE+0 
+        278 FOR_ITER         8202 (to 8483)
+        281 SLICE+2        
+        282 SLICE+2        
+        283 SLICE+2        
+        284 SLICE+2        
+        285 BUILD_MAP       15648
+        288 SLICE+2        
+        289 IMPORT_NAME     30575 (30575)
+        292 SLICE+2        
+        293 <45>           
+        294 SLICE+2        
+        295 <49>           
+        296 UNARY_POSITIVE 
+        297 SLICE+2        
+        298 SLICE+2        
+        299 SLICE+2        
+        300 SLICE+2        
+        301 SLICE+2        
+        302 LOAD_ATTR       15648 (15648)
+        305 SLICE+2        
+        306 BUILD_SET       26473
+        309 BUILD_SET       11040
+        312 SLICE+2        
+        313 <49>           
+        314 UNARY_POSITIVE 
+        315 SLICE+2        
+        316 SLICE+2        
+        317 SLICE+2        
+        318 SLICE+2        
+        319 SLICE+2        
+        320 CONTINUE_LOOP   26984
+        323 IMPORT_NAME      8293 (8293)
+        326 IMPORT_STAR    
+        327 POP_JUMP_IF_FALSE 25973
+        330 INPLACE_DIVIDE 
+        331 UNARY_POSITIVE 
+        332 SLICE+2        
+        333 SLICE+2        
+        334 SLICE+2        
+        335 SLICE+2        
+        336 SLICE+2        
+        337 SLICE+2        
+        338 SLICE+2        
+        339 SLICE+2        
+        340 SLICE+2        
+        341 BUILD_MAP       11040
+        344 DELETE_SUBSCR  
+        345 SLICE+2        
+        346 <49>           
+        347 UNARY_POSITIVE 
+        348 SLICE+2        
+        349 SLICE+2        
+        350 SLICE+2        
+        351 SLICE+2        
+        352 SLICE+2        
+        353 SLICE+2        
+        354 SLICE+2        
+        355 SLICE+2        
+        356 SLICE+2        
+        357 CONTINUE_LOOP   26984
+        360 IMPORT_NAME      8293 (8293)
+        363 JUMP_FORWARD    28021 (to 28387)
+        366 POP_JUMP_IF_TRUE 26971
+        369 FOR_ITER        15392 (to 15764)
+        372 SLICE+2        
+        373 JUMP_IF_TRUE_OR_POP 30313
+        376 JUMP_IF_FALSE_OR_POP 14964
+        379 UNARY_POSITIVE 
+        380 SLICE+2        
+        381 SLICE+2        
+        382 SLICE+2        
+        383 SLICE+2        
+        384 SLICE+2        
+        385 SLICE+2        
+        386 SLICE+2        
+        387 SLICE+2        
+        388 SLICE+2        
+        389 LOAD_ATTR       11552 (11552)
+        392 DELETE_SUBSCR  
+        393 SLICE+2        
+        394 <49>           
+        395 UNARY_POSITIVE 
+        396 SLICE+2        
+        397 SLICE+2        
+        398 SLICE+2        
+        399 SLICE+2        
+        400 SLICE+2        
+        401 SLICE+2        
+        402 SLICE+2        
+        403 SLICE+2        
+        404 SLICE+2        
+        405 CONTINUE_LOOP   26984
+        408 IMPORT_NAME      8293 (8293)
+        411 JUMP_FORWARD    28021 (to 28435)
+        414 POP_JUMP_IF_TRUE 27227
+        417 FOR_ITER        15904 (to 16324)
+        420 SLICE+2        
+        421 JUMP_IF_TRUE_OR_POP 30313
+        424 JUMP_IF_FALSE_OR_POP 14964
+        427 UNARY_POSITIVE 
+        428 SLICE+2        
+        429 SLICE+2        
+        430 SLICE+2        
+        431 SLICE+2        
+        432 SLICE+2        
+        433 SLICE+2        
+        434 SLICE+2        
+        435 SLICE+2        
+        436 SLICE+2        
+        437 SLICE+2        
+        438 SLICE+2        
+        439 SLICE+2        
+        440 SLICE+2        
+        441 LOAD_ATTR       11552 (11552)
+        444 DELETE_SUBSCR  
+        445 SLICE+2        
+        446 <49>           
+        447 UNARY_POSITIVE 
+        448 SLICE+2        
+        449 SLICE+2        
+        450 SLICE+2        
+        451 SLICE+2        
+        452 SLICE+2        
+        453 SLICE+2        
+        454 SLICE+2        
+        455 SLICE+2        
+        456 SLICE+2        
+        457 CONTINUE_LOOP   26984
+        460 IMPORT_NAME      8293 (8293)
+        463 JUMP_FORWARD    28021 (to 28487)
+        466 POP_JUMP_IF_TRUE 27227
+        469 FOR_ITER        15904 (to 16376)
+        472 SLICE+2        
+        473 JUMP_IF_TRUE_OR_POP 30313
+        476 JUMP_IF_FALSE_OR_POP 14964
+        479 UNARY_POSITIVE 
+        480 SLICE+2        
+        481 SLICE+2        
+        482 SLICE+2        
+        483 SLICE+2        
+        484 SLICE+2        
+        485 SLICE+2        
+        486 SLICE+2        
+        487 SLICE+2        
+        488 SLICE+2        
+        489 SLICE+2        
+        490 SLICE+2        
+        491 SLICE+2        
+        492 SLICE+2        
+        493 LOAD_ATTR       11552 (11552)
+        496 DELETE_SUBSCR  
+        497 SLICE+2        
+        498 <49>           
+        499 UNARY_POSITIVE 
+        500 SLICE+2        
+        501 SLICE+2        
+        502 SLICE+2        
+        503 SLICE+2        
+        504 SLICE+2        
+        505 SLICE+2        
+        506 SLICE+2        
+        507 SLICE+2        
+        508 SLICE+2        
+        509 CONTINUE_LOOP   26984
+        512 IMPORT_NAME      8293 (8293)
+        515 JUMP_FORWARD    28021 (to 28539)
+        518 POP_JUMP_IF_TRUE 27227
+        521 FOR_ITER        15904 (to 16428)
+        524 SLICE+2        
+        525 JUMP_IF_TRUE_OR_POP 30313
+        528 JUMP_IF_FALSE_OR_POP 14964
+        531 UNARY_POSITIVE 
+        532 SLICE+2        
+        533 SLICE+2        
+        534 SLICE+2        
+        535 SLICE+2        
+        536 SLICE+2        
+        537 SLICE+2        
+        538 SLICE+2        
+        539 SLICE+2        
+        540 SLICE+2        
+        541 BUILD_MAP        8294
+        544 BUILD_MAP       15904
+        547 DELETE_SUBSCR  
+        548 SLICE+2        
+        549 LOAD_ATTR        2618 (2618)
+        552 SLICE+2        
+        553 SLICE+2        
+        554 SLICE+2        
+        555 SLICE+2        
+        556 SLICE+2        
+        557 SLICE+2        
+        558 SLICE+2        
+        559 SLICE+2        
+        560 SLICE+2        
+        561 JUMP_FORWARD    28021 (to 28585)
+        564 POP_JUMP_IF_TRUE 26971
+        567 FOR_ITER         8236 (to 8806)
+        570 JUMP_FORWARD    28021 (to 28594)
+        573 POP_JUMP_IF_TRUE 27227
+        576 FOR_ITER        15648 (to 16227)
+        579 SLICE+2        
+        580 JUMP_FORWARD    28021 (to 28604)
+        583 POP_JUMP_IF_TRUE 27227
+        586 FOR_ITER         8236 (to 8825)
+        589 JUMP_FORWARD    28021 (to 28613)
+        592 POP_JUMP_IF_TRUE 26971
+        595 FOR_ITER         8202 (to 8800)
+        598 SLICE+2        
+        599 SLICE+2        
+        600 SLICE+2        
+        601 SLICE+2        
+        602 CONTINUE_LOOP   26984
+        605 IMPORT_NAME      8293 (8293)
+        608 IMPORT_STAR    
+        609 POP_JUMP_IF_FALSE 25973
+        612 INPLACE_DIVIDE 
+        613 UNARY_POSITIVE 
+        614 SLICE+2        
+        615 SLICE+2        
+        616 SLICE+2        
+        617 SLICE+2        
+        618 SLICE+2        
+        619 SLICE+2        
+        620 SLICE+2        
+        621 SLICE+2        
+        622 SLICE+2        
+        623 BUILD_MAP       11040
+        626 DELETE_SUBSCR  
+        627 SLICE+2        
+        628 <49>           
+        629 UNARY_POSITIVE 
+        630 SLICE+2        
+        631 SLICE+2        
+        632 SLICE+2        
+        633 SLICE+2        
+        634 SLICE+2        
+        635 SLICE+2        
+        636 SLICE+2        
+        637 SLICE+2        
+        638 SLICE+2        
+        639 CONTINUE_LOOP   26984
+        642 IMPORT_NAME      8293 (8293)
+        645 JUMP_FORWARD    28021 (to 28669)
+        648 POP_JUMP_IF_TRUE 26971
+        651 FOR_ITER        15392 (to 16046)
+        654 SLICE+2        
+        655 JUMP_IF_TRUE_OR_POP 30313
+        658 JUMP_IF_FALSE_OR_POP 14964
+        661 UNARY_POSITIVE 
+        662 SLICE+2        
+        663 SLICE+2        
+        664 SLICE+2        
+        665 SLICE+2        
+        666 SLICE+2        
+        667 SLICE+2        
+        668 SLICE+2        
+        669 SLICE+2        
+        670 SLICE+2        
+        671 LOAD_ATTR       11552 (11552)
+        674 DELETE_SUBSCR  
+        675 SLICE+2        
+        676 <49>           
+        677 UNARY_POSITIVE 
+        678 SLICE+2        
+        679 SLICE+2        
+        680 SLICE+2        
+        681 SLICE+2        
+        682 SLICE+2        
+        683 SLICE+2        
+        684 SLICE+2        
+        685 SLICE+2        
+        686 SLICE+2        
+        687 CONTINUE_LOOP   26984
+        690 IMPORT_NAME      8293 (8293)
+        693 JUMP_FORWARD    28021 (to 28717)
+        696 POP_JUMP_IF_TRUE 27227
+        699 FOR_ITER        15904 (to 16606)
+        702 SLICE+2        
+        703 JUMP_IF_TRUE_OR_POP 30313
+        706 JUMP_IF_FALSE_OR_POP 14964
+        709 UNARY_POSITIVE 
+        710 SLICE+2        
+        711 SLICE+2        
+        712 SLICE+2        
+        713 SLICE+2        
+        714 SLICE+2        
+        715 SLICE+2        
+        716 SLICE+2        
+        717 SLICE+2        
+        718 SLICE+2        
+        719 SLICE+2        
+        720 SLICE+2        
+        721 SLICE+2        
+        722 SLICE+2        
+        723 LOAD_ATTR       11552 (11552)
+        726 DELETE_SUBSCR  
+        727 SLICE+2        
+        728 <49>           
+        729 UNARY_POSITIVE 
+        730 SLICE+2        
+        731 SLICE+2        
+        732 SLICE+2        
+        733 SLICE+2        
+        734 SLICE+2        
+        735 SLICE+2        
+        736 SLICE+2        
+        737 SLICE+2        
+        738 SLICE+2        
+        739 CONTINUE_LOOP   26984
+        742 IMPORT_NAME      8293 (8293)
+        745 JUMP_FORWARD    28021 (to 28769)
+        748 POP_JUMP_IF_TRUE 27227
+        751 FOR_ITER        15904 (to 16658)
+        754 SLICE+2        
+        755 JUMP_IF_TRUE_OR_POP 30313
+        758 JUMP_IF_FALSE_OR_POP 14964
+        761 UNARY_POSITIVE 
+        762 SLICE+2        
+        763 SLICE+2        
+        764 SLICE+2        
+        765 SLICE+2        
+        766 SLICE+2        
+        767 SLICE+2        
+        768 SLICE+2        
+        769 SLICE+2        
+        770 SLICE+2        
+        771 BUILD_MAP        8294
+        774 BUILD_MAP       15904
+        777 DELETE_SUBSCR  
+        778 SLICE+2        
+        779 LOAD_ATTR        2618 (2618)
+        782 SLICE+2        
+        783 SLICE+2        
+        784 SLICE+2        
+        785 SLICE+2        
+        786 SLICE+2        
+        787 SLICE+2        
+        788 SLICE+2        
+        789 SLICE+2        
+        790 SLICE+2        
+        791 SLICE+2        
+        792 SLICE+2        
+        793 SLICE+2        
+        794 SLICE+2        
+        795 POP_JUMP_IF_FALSE 29797
+        798 <117>           28274
+        801 SLICE+2        
+        802 LOAD_ATTR        8202 (8202)
+        805 SLICE+2        
+        806 SLICE+2        
+        807 SLICE+2        
+        808 SLICE+2        
+        809 SLICE+2        
+        810 SLICE+2        
+        811 SLICE+2        
+        812 SLICE+2        
+        813 SLICE+2        
+        814 SLICE+2        
+        815 SLICE+2        
+        816 SLICE+2        
+        817 STORE_ATTR      30065 (30065)
+        820 BUILD_MAP       27491
+        823 STORE_ATTR      28531 (28531)
+        826 POP_JUMP_IF_FALSE 10356
+        829 BUILD_MAP       25972
+        832 IMPORT_FROM     11379 (11379)
+        835 SLICE+2        
+        836 IMPORT_NAME     30575 (30575)
+        839 <44>           
+        840 SLICE+2        
+        841 POP_JUMP_IF_TRUE 27760
+        844 BUILD_MAP       24436
+        847 BUILD_MAP       25710
+        850 LOAD_NAME       10616 (10616)
+        853 UNARY_POSITIVE 
+        854 SLICE+2        
+        855 SLICE+2        
+        856 SLICE+2        
+        857 SLICE+2        
+        858 SLICE+2        
+        859 SLICE+2        
+        860 SLICE+2        
+        861 SLICE+2        
+        862 SLICE+2        
+        863 BUILD_MAP        8294
+        866 IMPORT_NAME     30575 (30575)
+        869 SLICE+2        
+        870 STORE_SUBSCR   
+        871 SLICE+2        
+        872 BUILD_SET       26473
+        875 BUILD_SET        2618
+        878 SLICE+2        
+        879 SLICE+2        
+        880 SLICE+2        
+        881 SLICE+2        
+        882 SLICE+2        
+        883 SLICE+2        
+        884 SLICE+2        
+        885 SLICE+2        
+        886 SLICE+2        
+        887 SLICE+2        
+        888 SLICE+2        
+        889 SLICE+2        
+        890 SLICE+2        
+        891 STORE_ATTR      30065 (30065)
+        894 BUILD_MAP       27491
+        897 STORE_ATTR      28531 (28531)
+        900 POP_JUMP_IF_FALSE 10356
+        903 BUILD_MAP       25972
+        906 IMPORT_FROM     11379 (11379)
+        909 SLICE+2        
+        910 POP_JUMP_IF_TRUE 27760
+        913 BUILD_MAP       24436
+        916 BUILD_MAP       25710
+        919 LOAD_NAME        8312 (8312)
+        922 STORE_SLICE+3  
+        923 SLICE+2        
+        924 <49>           
+        925 <44>           
+        926 SLICE+2        
+        927 BUILD_SET       26473
+        930 BUILD_SET        2601
+        933 SLICE+2        
+        934 SLICE+2        
+        935 SLICE+2        
+        936 SLICE+2        
+        937 SLICE+2        
+        938 SLICE+2        
+        939 SLICE+2        
+        940 SLICE+2        
+        941 SLICE+2        
+        942 BUILD_MAP        8294
+        945 IMPORT_NAME     30575 (30575)
+        948 SLICE+2        
+        949 STORE_SUBSCR   
+        950 SLICE+2        
+        951 BUILD_SET       26473
+        954 BUILD_SET        2618
+        957 SLICE+2        
+        958 SLICE+2        
+        959 SLICE+2        
+        960 SLICE+2        
+        961 SLICE+2        
+        962 SLICE+2        
+        963 SLICE+2        
+        964 SLICE+2        
+        965 SLICE+2        
+        966 SLICE+2        
+        967 SLICE+2        
+        968 SLICE+2        
+        969 SLICE+2        
+        970 POP_JUMP_IF_TRUE 27760
+        973 BUILD_MAP       24436
+        976 BUILD_MAP       25710
+        979 LOAD_NAME        8312 (8312)
+        982 DELETE_SUBSCR  
+        983 SLICE+2        
+        984 JUMP_IF_TRUE_OR_POP 29281
+        987 LOAD_GLOBAL     29801 (29801)
+        990 BUILD_MAP       28271
+        993 STORE_SLICE+0  
+        994 BUILD_MAP       25972
+        997 IMPORT_FROM     11379 (11379)
+       1000 SLICE+2        
+       1001 IMPORT_NAME     30575 (30575)
+       1004 <44>           
+       1005 SLICE+2        
+       1006 BUILD_SET       26473
+       1009 BUILD_SET        2601
+       1012 SLICE+2        
+       1013 SLICE+2        
+       1014 SLICE+2        
+       1015 SLICE+2        
+       1016 SLICE+2        
+       1017 JUMP_IF_TRUE_OR_POP 30313
+       1020 JUMP_IF_FALSE_OR_POP  8308
+       1023 DELETE_SUBSCR  
+       1024 SLICE+2        
+       1025 JUMP_FORWARD    28021 (to 29049)
+       1028 POP_JUMP_IF_TRUE 10331
+       1031 IMPORT_NAME     30575 (30575)
+       1034 SLICE+2        
+       1035 STORE_SLICE+3  
+       1036 SLICE+2        
+       1037 BUILD_SET       26473
+       1040 BUILD_SET        8233
+       1043 <47>           
+       1044 <47>           
+       1045 SLICE+2        
+       1046 DELETE_SLICE+0 
+       1047 FOR_ITER         8202 (to 9252)
+       1050 SLICE+2        
+       1051 SLICE+2        
+       1052 SLICE+2        
+       1053 SLICE+2        
+       1054 BUILD_MAP       15648
+       1057 SLICE+2        
+       1058 IMPORT_NAME     30575 (30575)
+       1061 SLICE+2        
+       1062 <45>           
+       1063 SLICE+2        
+       1064 <49>           
+       1065 UNARY_POSITIVE 
+       1066 SLICE+2        
+       1067 SLICE+2        
+       1068 SLICE+2        
+       1069 SLICE+2        
+       1070 SLICE+2        
+       1071 LOAD_ATTR       15648 (15648)
+       1074 SLICE+2        
+       1075 BUILD_SET       26473
+       1078 BUILD_SET       11040
+       1081 SLICE+2        
+       1082 <49>           
+       1083 UNARY_POSITIVE 
+       1084 SLICE+2        
+       1085 SLICE+2        
+       1086 SLICE+2        
+       1087 SLICE+2        
+       1088 SLICE+2        
+       1089 CONTINUE_LOOP   26984
+       1092 IMPORT_NAME      8293 (8293)
+       1095 IMPORT_STAR    
+       1096 POP_JUMP_IF_FALSE 25973
+       1099 INPLACE_DIVIDE 
+       1100 UNARY_POSITIVE 
+       1101 SLICE+2        
+       1102 SLICE+2        
+       1103 SLICE+2        
+       1104 SLICE+2        
+       1105 SLICE+2        
+       1106 SLICE+2        
+       1107 SLICE+2        
+       1108 SLICE+2        
+       1109 SLICE+2        
+       1110 BUILD_MAP       11040
+       1113 DELETE_SUBSCR  
+       1114 SLICE+2        
+       1115 <49>           
+       1116 UNARY_POSITIVE 
+       1117 SLICE+2        
+       1118 SLICE+2        
+       1119 SLICE+2        
+       1120 SLICE+2        
+       1121 SLICE+2        
+       1122 SLICE+2        
+       1123 SLICE+2        
+       1124 SLICE+2        
+       1125 SLICE+2        
+       1126 CONTINUE_LOOP   26984
+       1129 IMPORT_NAME      8293 (8293)
+       1132 JUMP_FORWARD    28021 (to 29156)
+       1135 POP_JUMP_IF_TRUE 26971
+       1138 FOR_ITER        15392 (to 16533)
+       1141 SLICE+2        
+       1142 JUMP_IF_TRUE_OR_POP 30313
+       1145 JUMP_IF_FALSE_OR_POP 14964
+       1148 UNARY_POSITIVE 
+       1149 SLICE+2        
+       1150 SLICE+2        
+       1151 SLICE+2        
+       1152 SLICE+2        
+       1153 SLICE+2        
+       1154 SLICE+2        
+       1155 SLICE+2        
+       1156 SLICE+2        
+       1157 SLICE+2        
+       1158 SLICE+2        
+       1159 SLICE+2        
+       1160 SLICE+2        
+       1161 SLICE+2        
+       1162 BUILD_MAP       11040
+       1165 DELETE_SUBSCR  
+       1166 SLICE+2        
+       1167 <49>           
+       1168 UNARY_POSITIVE 
+       1169 SLICE+2        
+       1170 SLICE+2        
+       1171 SLICE+2        
+       1172 SLICE+2        
+       1173 SLICE+2        
+       1174 SLICE+2        
+       1175 SLICE+2        
+       1176 SLICE+2        
+       1177 SLICE+2        
+       1178 CONTINUE_LOOP   26984
+       1181 IMPORT_NAME      8293 (8293)
+       1184 JUMP_FORWARD    28021 (to 29208)
+       1187 POP_JUMP_IF_TRUE 26971
+       1190 FOR_ITER        15392 (to 16585)
+       1193 SLICE+2        
+       1194 JUMP_IF_TRUE_OR_POP 30313
+       1197 JUMP_IF_FALSE_OR_POP 14964
+       1200 UNARY_POSITIVE 
+       1201 SLICE+2        
+       1202 SLICE+2        
+       1203 SLICE+2        
+       1204 SLICE+2        
+       1205 SLICE+2        
+       1206 SLICE+2        
+       1207 SLICE+2        
+       1208 SLICE+2        
+       1209 SLICE+2        
+       1210 LOAD_ATTR       11552 (11552)
+       1213 DELETE_SUBSCR  
+       1214 SLICE+2        
+       1215 <49>           
+       1216 UNARY_POSITIVE 
+       1217 SLICE+2        
+       1218 SLICE+2        
+       1219 SLICE+2        
+       1220 SLICE+2        
+       1221 SLICE+2        
+       1222 SLICE+2        
+       1223 SLICE+2        
+       1224 SLICE+2        
+       1225 SLICE+2        
+       1226 CONTINUE_LOOP   26984
+       1229 IMPORT_NAME      8293 (8293)
+       1232 JUMP_FORWARD    28021 (to 29256)
+       1235 POP_JUMP_IF_TRUE 27227
+       1238 FOR_ITER        15904 (to 17145)
+       1241 SLICE+2        
+       1242 JUMP_IF_TRUE_OR_POP 30313
+       1245 JUMP_IF_FALSE_OR_POP 14964
+       1248 UNARY_POSITIVE 
+       1249 SLICE+2        
+       1250 SLICE+2        
+       1251 SLICE+2        
+       1252 SLICE+2        
+       1253 SLICE+2        
+       1254 SLICE+2        
+       1255 SLICE+2        
+       1256 SLICE+2        
+       1257 SLICE+2        
+       1258 BUILD_MAP        8294
+       1261 BUILD_MAP       15904
+       1264 DELETE_SUBSCR  
+       1265 SLICE+2        
+       1266 LOAD_ATTR        2618 (2618)
+       1269 SLICE+2        
+       1270 SLICE+2        
+       1271 SLICE+2        
+       1272 SLICE+2        
+       1273 SLICE+2        
+       1274 SLICE+2        
+       1275 SLICE+2        
+       1276 SLICE+2        
+       1277 SLICE+2        
+       1278 JUMP_FORWARD    28021 (to 29302)
+       1281 POP_JUMP_IF_TRUE 26971
+       1284 FOR_ITER         8236 (to 9523)
+       1287 JUMP_FORWARD    28021 (to 29311)
+       1290 POP_JUMP_IF_TRUE 27227
+       1293 FOR_ITER        15648 (to 16944)
+       1296 SLICE+2        
+       1297 JUMP_FORWARD    28021 (to 29321)
+       1300 POP_JUMP_IF_TRUE 27227
+       1303 FOR_ITER         8236 (to 9542)
+       1306 JUMP_FORWARD    28021 (to 29330)
+       1309 POP_JUMP_IF_TRUE 26971
+       1312 FOR_ITER         8202 (to 9517)
+       1315 SLICE+2        
+       1316 SLICE+2        
+       1317 SLICE+2        
+       1318 SLICE+2        
+       1319 CONTINUE_LOOP   26984
+       1322 IMPORT_NAME      8293 (8293)
+       1325 IMPORT_STAR    
+       1326 POP_JUMP_IF_FALSE 25973
+       1329 INPLACE_DIVIDE 
+       1330 UNARY_POSITIVE 
+       1331 SLICE+2        
+       1332 SLICE+2        
+       1333 SLICE+2        
+       1334 SLICE+2        
+       1335 SLICE+2        
+       1336 SLICE+2        
+       1337 SLICE+2        
+       1338 SLICE+2        
+       1339 SLICE+2        
+       1340 BUILD_MAP       11040
+       1343 DELETE_SUBSCR  
+       1344 SLICE+2        
+       1345 <49>           
+       1346 UNARY_POSITIVE 
+       1347 SLICE+2        
+       1348 SLICE+2        
+       1349 SLICE+2        
+       1350 SLICE+2        
+       1351 SLICE+2        
+       1352 SLICE+2        
+       1353 SLICE+2        
+       1354 SLICE+2        
+       1355 SLICE+2        
+       1356 CONTINUE_LOOP   26984
+       1359 IMPORT_NAME      8293 (8293)
+       1362 JUMP_FORWARD    28021 (to 29386)
+       1365 POP_JUMP_IF_TRUE 26971
+       1368 FOR_ITER        15392 (to 16763)
+       1371 SLICE+2        
+       1372 JUMP_IF_TRUE_OR_POP 30313
+       1375 JUMP_IF_FALSE_OR_POP 14964
+       1378 UNARY_POSITIVE 
+       1379 SLICE+2        
+       1380 SLICE+2        
+       1381 SLICE+2        
+       1382 SLICE+2        
+       1383 SLICE+2        
+       1384 SLICE+2        
+       1385 SLICE+2        
+       1386 SLICE+2        
+       1387 SLICE+2        
+       1388 LOAD_ATTR       11552 (11552)
+       1391 DELETE_SUBSCR  
+       1392 SLICE+2        
+       1393 <49>           
+       1394 UNARY_POSITIVE 
+       1395 SLICE+2        
+       1396 SLICE+2        
+       1397 SLICE+2        
+       1398 SLICE+2        
+       1399 SLICE+2        
+       1400 SLICE+2        
+       1401 SLICE+2        
+       1402 SLICE+2        
+       1403 SLICE+2        
+       1404 CONTINUE_LOOP   26984
+       1407 IMPORT_NAME      8293 (8293)
+       1410 JUMP_FORWARD    28021 (to 29434)
+       1413 POP_JUMP_IF_TRUE 27227
+       1416 FOR_ITER        15904 (to 17323)
+       1419 SLICE+2        
+       1420 JUMP_IF_TRUE_OR_POP 30313
+       1423 JUMP_IF_FALSE_OR_POP 14964
+       1426 UNARY_POSITIVE 
+       1427 SLICE+2        
+       1428 SLICE+2        
+       1429 SLICE+2        
+       1430 SLICE+2        
+       1431 SLICE+2        
+       1432 SLICE+2        
+       1433 SLICE+2        
+       1434 SLICE+2        
+       1435 SLICE+2        
+       1436 SLICE+2        
+       1437 SLICE+2        
+       1438 SLICE+2        
+       1439 SLICE+2        
+       1440 LOAD_ATTR       11552 (11552)
+       1443 DELETE_SUBSCR  
+       1444 SLICE+2        
+       1445 <49>           
+       1446 UNARY_POSITIVE 
+       1447 SLICE+2        
+       1448 SLICE+2        
+       1449 SLICE+2        
+       1450 SLICE+2        
+       1451 SLICE+2        
+       1452 SLICE+2        
+       1453 SLICE+2        
+       1454 SLICE+2        
+       1455 SLICE+2        
+       1456 CONTINUE_LOOP   26984
+       1459 IMPORT_NAME      8293 (8293)
+       1462 JUMP_FORWARD    28021 (to 29486)
+       1465 POP_JUMP_IF_TRUE 27227
+       1468 FOR_ITER        15904 (to 17375)
+       1471 SLICE+2        
+       1472 JUMP_IF_TRUE_OR_POP 30313
+       1475 JUMP_IF_FALSE_OR_POP 14964
+       1478 UNARY_POSITIVE 
+       1479 SLICE+2        
+       1480 SLICE+2        
+       1481 SLICE+2        
+       1482 SLICE+2        
+       1483 SLICE+2        
+       1484 SLICE+2        
+       1485 SLICE+2        
+       1486 SLICE+2        
+       1487 SLICE+2        
+       1488 BUILD_MAP        8294
+       1491 BUILD_MAP       15904
+       1494 DELETE_SUBSCR  
+       1495 SLICE+2        
+       1496 LOAD_ATTR        2618 (2618)
+       1499 SLICE+2        
+       1500 SLICE+2        
+       1501 SLICE+2        
+       1502 SLICE+2        
+       1503 SLICE+2        
+       1504 SLICE+2        
+       1505 SLICE+2        
+       1506 SLICE+2        
+       1507 SLICE+2        
+       1508 SLICE+2        
+       1509 SLICE+2        
+       1510 SLICE+2        
+       1511 SLICE+2        
+       1512 POP_JUMP_IF_FALSE 29797
+       1515 <117>           28274
+       1518 SLICE+2        
+       1519 LOAD_ATTR        8202 (8202)
+       1522 SLICE+2        
+       1523 SLICE+2        
+       1524 SLICE+2        
+       1525 SLICE+2        
+       1526 SLICE+2        
+       1527 SLICE+2        
+       1528 SLICE+2        
+       1529 SLICE+2        
+       1530 SLICE+2        
+       1531 SLICE+2        
+       1532 SLICE+2        
+       1533 SLICE+2        
+       1534 STORE_ATTR      30065 (30065)
+       1537 BUILD_MAP       27491
+       1540 STORE_ATTR      28531 (28531)
+       1543 POP_JUMP_IF_FALSE 10356
+       1546 BUILD_MAP       25972
+       1549 IMPORT_FROM     11379 (11379)
+       1552 SLICE+2        
+       1553 IMPORT_NAME     30575 (30575)
+       1556 <44>           
+       1557 SLICE+2        
+       1558 POP_JUMP_IF_TRUE 27760
+       1561 BUILD_MAP       24436
+       1564 BUILD_MAP       25710
+       1567 LOAD_NAME       10616 (10616)
+       1570 UNARY_POSITIVE 
+       1571 SLICE+2        
+       1572 SLICE+2        
+       1573 SLICE+2        
+       1574 SLICE+2        
+       1575 SLICE+2        
+       1576 SLICE+2        
+       1577 SLICE+2        
+       1578 SLICE+2        
+       1579 SLICE+2        
+       1580 BUILD_MAP        8294
+       1583 IMPORT_NAME     30575 (30575)
+       1586 SLICE+2        
+       1587 STORE_SUBSCR   
+       1588 SLICE+2        
+       1589 BUILD_SET       26473
+       1592 BUILD_SET        2618
+       1595 SLICE+2        
+       1596 SLICE+2        
+       1597 SLICE+2        
+       1598 SLICE+2        
+       1599 SLICE+2        
+       1600 SLICE+2        
+       1601 SLICE+2        
+       1602 SLICE+2        
+       1603 SLICE+2        
+       1604 SLICE+2        
+       1605 SLICE+2        
+       1606 SLICE+2        
+       1607 SLICE+2        
+       1608 POP_JUMP_IF_TRUE 27760
+       1611 BUILD_MAP       24436
+       1614 BUILD_MAP       25710
+       1617 LOAD_NAME        8312 (8312)
+       1620 DELETE_SUBSCR  
+       1621 SLICE+2        
+       1622 JUMP_IF_TRUE_OR_POP 29281
+       1625 LOAD_GLOBAL     29801 (29801)
+       1628 BUILD_MAP       28271
+       1631 STORE_SLICE+0  
+       1632 BUILD_MAP       25972
+       1635 IMPORT_FROM     11379 (11379)
+       1638 SLICE+2        
+       1639 IMPORT_NAME     30575 (30575)
+       1642 <44>           
+       1643 SLICE+2        
+       1644 BUILD_SET       26473
+       1647 BUILD_SET        2601
+       1650 SLICE+2        
+       1651 SLICE+2        
+       1652 SLICE+2        
+       1653 SLICE+2        
+       1654 SLICE+2        
+       1655 JUMP_IF_TRUE_OR_POP 30313
+       1658 JUMP_IF_FALSE_OR_POP  8308
+       1661 DELETE_SUBSCR  
+       1662 SLICE+2        
+       1663 JUMP_FORWARD    28021 (to 29687)
+       1666 POP_JUMP_IF_TRUE 10331
+       1669 IMPORT_NAME     30575 (30575)
+       1672 SLICE+2        
+       1673 STORE_SLICE+3  
+       1674 SLICE+2        
+       1675 BUILD_SET       26473
+       1678 BUILD_SET        8233
+       1681 <47>           
+       1682 <47>           
+       1683 SLICE+2        
+       1684 DELETE_SLICE+0 
+       1685 FOR_ITER         8202 (to 9890)
+       1688 SLICE+2        
+       1689 SLICE+2        
+       1690 SLICE+2        
+       1691 SLICE+2        
+       1692 BUILD_MAP       15648
+       1695 SLICE+2        
+       1696 IMPORT_NAME     30575 (30575)
+       1699 SLICE+2        
+       1700 <45>           
+       1701 SLICE+2        
+       1702 <49>           
+       1703 UNARY_POSITIVE 
+       1704 SLICE+2        
+       1705 SLICE+2        
+       1706 SLICE+2        
+       1707 SLICE+2        
+       1708 SLICE+2        
+       1709 LOAD_ATTR       15648 (15648)
+       1712 SLICE+2        
+       1713 BUILD_SET       26473
+       1716 BUILD_SET       11040
+       1719 SLICE+2        
+       1720 <49>           
+       1721 UNARY_POSITIVE 
+       1722 SLICE+2        
+       1723 SLICE+2        
+       1724 SLICE+2        
+       1725 SLICE+2        
+       1726 SLICE+2        
+       1727 CONTINUE_LOOP   26984
+       1730 IMPORT_NAME      8293 (8293)
+       1733 IMPORT_STAR    
+       1734 POP_JUMP_IF_FALSE 25973
+       1737 INPLACE_DIVIDE 
+       1738 UNARY_POSITIVE 
+       1739 SLICE+2        
+       1740 SLICE+2        
+       1741 SLICE+2        
+       1742 SLICE+2        
+       1743 SLICE+2        
+       1744 SLICE+2        
+       1745 SLICE+2        
+       1746 SLICE+2        
+       1747 SLICE+2        
+       1748 BUILD_MAP       11040
+       1751 DELETE_SUBSCR  
+       1752 SLICE+2        
+       1753 <49>           
+       1754 UNARY_POSITIVE 
+       1755 SLICE+2        
+       1756 SLICE+2        
+       1757 SLICE+2        
+       1758 SLICE+2        
+       1759 SLICE+2        
+       1760 SLICE+2        
+       1761 SLICE+2        
+       1762 SLICE+2        
+       1763 SLICE+2        
+       1764 CONTINUE_LOOP   26984
+       1767 IMPORT_NAME      8293 (8293)
+       1770 JUMP_FORWARD    28021 (to 29794)
+       1773 POP_JUMP_IF_TRUE 26971
+       1776 FOR_ITER        15392 (to 17171)
+       1779 SLICE+2        
+       1780 JUMP_IF_TRUE_OR_POP 30313
+       1783 JUMP_IF_FALSE_OR_POP 14964
+       1786 UNARY_POSITIVE 
+       1787 SLICE+2        
+       1788 SLICE+2        
+       1789 SLICE+2        
+       1790 SLICE+2        
+       1791 SLICE+2        
+       1792 SLICE+2        
+       1793 SLICE+2        
+       1794 SLICE+2        
+       1795 SLICE+2        
+       1796 LOAD_ATTR       11552 (11552)
+       1799 DELETE_SUBSCR  
+       1800 SLICE+2        
+       1801 <49>           
+       1802 UNARY_POSITIVE 
+       1803 SLICE+2        
+       1804 SLICE+2        
+       1805 SLICE+2        
+       1806 SLICE+2        
+       1807 SLICE+2        
+       1808 SLICE+2        
+       1809 SLICE+2        
+       1810 SLICE+2        
+       1811 SLICE+2        
+       1812 CONTINUE_LOOP   26984
+       1815 IMPORT_NAME      8293 (8293)
+       1818 JUMP_FORWARD    28021 (to 29842)
+       1821 POP_JUMP_IF_TRUE 27227
+       1824 FOR_ITER        15904 (to 17731)
+       1827 SLICE+2        
+       1828 JUMP_IF_TRUE_OR_POP 30313
+       1831 JUMP_IF_FALSE_OR_POP 14964
+       1834 UNARY_POSITIVE 
+       1835 SLICE+2        
+       1836 SLICE+2        
+       1837 SLICE+2        
+       1838 SLICE+2        
+       1839 SLICE+2        
+       1840 SLICE+2        
+       1841 SLICE+2        
+       1842 SLICE+2        
+       1843 SLICE+2        
+       1844 SLICE+2        
+       1845 SLICE+2        
+       1846 SLICE+2        
+       1847 SLICE+2        
+       1848 LOAD_ATTR       11552 (11552)
+       1851 DELETE_SUBSCR  
+       1852 SLICE+2        
+       1853 <49>           
+       1854 UNARY_POSITIVE 
+       1855 SLICE+2        
+       1856 SLICE+2        
+       1857 SLICE+2        
+       1858 SLICE+2        
+       1859 SLICE+2        
+       1860 SLICE+2        
+       1861 SLICE+2        
+       1862 SLICE+2        
+       1863 SLICE+2        
+       1864 CONTINUE_LOOP   26984
+       1867 IMPORT_NAME      8293 (8293)
+       1870 JUMP_FORWARD    28021 (to 29894)
+       1873 POP_JUMP_IF_TRUE 27227
+       1876 FOR_ITER        15904 (to 17783)
+       1879 SLICE+2        
+       1880 JUMP_IF_TRUE_OR_POP 30313
+       1883 JUMP_IF_FALSE_OR_POP 14964
+       1886 UNARY_POSITIVE 
+       1887 SLICE+2        
+       1888 SLICE+2        
+       1889 SLICE+2        
+       1890 SLICE+2        
+       1891 SLICE+2        
+       1892 SLICE+2        
+       1893 SLICE+2        
+       1894 SLICE+2        
+       1895 SLICE+2        
+       1896 BUILD_MAP        8294
+       1899 BUILD_MAP       15904
+       1902 DELETE_SUBSCR  
+       1903 SLICE+2        
+       1904 LOAD_ATTR        2618 (2618)
+       1907 SLICE+2        
+       1908 SLICE+2        
+       1909 SLICE+2        
+       1910 SLICE+2        
+       1911 SLICE+2        
+       1912 SLICE+2        
+       1913 SLICE+2        
+       1914 SLICE+2        
+       1915 SLICE+2        
+       1916 SLICE+2        
+       1917 SLICE+2        
+       1918 SLICE+2        
+       1919 SLICE+2        
+       1920 POP_JUMP_IF_FALSE 29797
+       1923 <117>           28274
+       1926 SLICE+2        
+       1927 LOAD_ATTR        8202 (8202)
+       1930 SLICE+2        
+       1931 SLICE+2        
+       1932 SLICE+2        
+       1933 SLICE+2        
+       1934 SLICE+2        
+       1935 SLICE+2        
+       1936 SLICE+2        
+       1937 SLICE+2        
+       1938 SLICE+2        
+       1939 SLICE+2        
+       1940 SLICE+2        
+       1941 SLICE+2        
+       1942 STORE_ATTR      30065 (30065)
+       1945 BUILD_MAP       27491
+       1948 STORE_ATTR      28531 (28531)
+       1951 POP_JUMP_IF_FALSE 10356
+       1954 BUILD_MAP       25972
+       1957 IMPORT_FROM     11379 (11379)
+       1960 SLICE+2        
+       1961 IMPORT_NAME     30575 (30575)
+       1964 <44>           
+       1965 SLICE+2        
+       1966 POP_JUMP_IF_TRUE 27760
+       1969 BUILD_MAP       24436
+       1972 BUILD_MAP       25710
+       1975 LOAD_NAME       10616 (10616)
+       1978 UNARY_POSITIVE 
+       1979 SLICE+2        
+       1980 SLICE+2        
+       1981 SLICE+2        
+       1982 SLICE+2        
+       1983 SLICE+2        
+       1984 SLICE+2        
+       1985 SLICE+2        
+       1986 SLICE+2        
+       1987 SLICE+2        
+       1988 BUILD_MAP        8294
+       1991 IMPORT_NAME     30575 (30575)
+       1994 SLICE+2        
+       1995 STORE_SUBSCR   
+       1996 SLICE+2        
+       1997 BUILD_SET       26473
+       2000 BUILD_SET        2618
+       2003 SLICE+2        
+       2004 SLICE+2        
+       2005 SLICE+2        
+       2006 SLICE+2        
+       2007 SLICE+2        
+       2008 SLICE+2        
+       2009 SLICE+2        
+       2010 SLICE+2        
+       2011 SLICE+2        
+       2012 SLICE+2        
+       2013 SLICE+2        
+       2014 SLICE+2        
+       2015 SLICE+2        
+       2016 STORE_ATTR      30065 (30065)
+       2019 BUILD_MAP       27491
+       2022 STORE_ATTR      28531 (28531)
+       2025 POP_JUMP_IF_FALSE 10356
+       2028 BUILD_MAP       25972
+       2031 IMPORT_FROM     11379 (11379)
+       2034 SLICE+2        
+       2035 POP_JUMP_IF_TRUE 27760
+       2038 BUILD_MAP       24436
+       2041 BUILD_MAP       25710
+       2044 LOAD_NAME        8312 (8312)
+       2047 STORE_SLICE+3  
+       2048 SLICE+2        
+       2049 <49>           
+       2050 <44>           
+       2051 SLICE+2        
+       2052 BUILD_SET       26473
+       2055 BUILD_SET        2601
+       2058 SLICE+2        
+       2059 SLICE+2        
+       2060 SLICE+2        
+       2061 SLICE+2        
+       2062 SLICE+2        
+       2063 SLICE+2        
+       2064 SLICE+2        
+       2065 SLICE+2        
+       2066 SLICE+2        
+       2067 BUILD_MAP        8294
+       2070 IMPORT_NAME     30575 (30575)
+       2073 SLICE+2        
+       2074 STORE_SUBSCR   
+       2075 SLICE+2        
+       2076 BUILD_SET       26473
+       2079 BUILD_SET        2618
+       2082 SLICE+2        
+       2083 SLICE+2        
+       2084 SLICE+2        
+       2085 SLICE+2        
+       2086 SLICE+2        
+       2087 SLICE+2        
+       2088 SLICE+2        
+       2089 SLICE+2        
+       2090 SLICE+2        
+       2091 SLICE+2        
+       2092 SLICE+2        
+       2093 SLICE+2        
+       2094 SLICE+2        
+       2095 STORE_ATTR      30065 (30065)
+       2098 BUILD_MAP       27491
+       2101 STORE_ATTR      28531 (28531)
+       2104 POP_JUMP_IF_FALSE 10356
+       2107 BUILD_MAP       25972
+       2110 IMPORT_FROM     11379 (11379)
+       2113 SLICE+2        
+       2114 POP_JUMP_IF_TRUE 27760
+       2117 BUILD_MAP       24436
+       2120 BUILD_MAP       25710
+       2123 LOAD_NAME        8312 (8312)
+       2126 STORE_SLICE+3  
+       2127 SLICE+2        
+       2128 <49>           
+       2129 <44>           
+       2130 SLICE+2        
+       2131 BUILD_SET       26473
+       2134 BUILD_SET        2601
+       2137 SLICE+2        
+       2138 SLICE+2        
+       2139 SLICE+2        
+       2140 SLICE+2        
+       2141 SLICE+2        
+       2142 SLICE+2        
+       2143 SLICE+2        
+       2144 SLICE+2        
+       2145 SLICE+2        
+       2146 BUILD_MAP        8294
+       2149 IMPORT_NAME     30575 (30575)
+       2152 SLICE+2        
+       2153 STORE_SUBSCR   
+       2154 SLICE+2        
+       2155 BUILD_SET       26473
+       2158 BUILD_SET        2618
+       2161 SLICE+2        
+       2162 SLICE+2        
+       2163 SLICE+2        
+       2164 SLICE+2        
+       2165 SLICE+2        
+       2166 SLICE+2        
+       2167 SLICE+2        
+       2168 SLICE+2        
+       2169 SLICE+2        
+       2170 SLICE+2        
+       2171 SLICE+2        
+       2172 SLICE+2        
+       2173 SLICE+2        
+       2174 POP_JUMP_IF_TRUE 27760
+       2177 BUILD_MAP       24436
+       2180 BUILD_MAP       25710
+       2183 LOAD_NAME        8312 (8312)
+       2186 DELETE_SUBSCR  
+       2187 SLICE+2        
+       2188 JUMP_IF_TRUE_OR_POP 29281
+       2191 LOAD_GLOBAL     29801 (29801)
+       2194 BUILD_MAP       28271
+       2197 STORE_SLICE+0  
+       2198 BUILD_MAP       25972
+       2201 IMPORT_FROM     11379 (11379)
+       2204 SLICE+2        
+       2205 IMPORT_NAME     30575 (30575)
+       2208 <44>           
+       2209 SLICE+2        
+       2210 BUILD_SET       26473
+       2213 BUILD_SET        2601
+       2216 SLICE+2        
+       2217 SLICE+2        
+       2218 SLICE+2        
+       2219 SLICE+2        
+       2220 SLICE+2        
+       2221 JUMP_IF_TRUE_OR_POP 30313
+       2224 JUMP_IF_FALSE_OR_POP  8308
+       2227 DELETE_SUBSCR  
+       2228 SLICE+2        
+       2229 JUMP_FORWARD    28021 (to 30253)
+       2232 POP_JUMP_IF_TRUE 10331
+       2235 IMPORT_NAME     30575 (30575)
+       2238 SLICE+2        
+       2239 STORE_SLICE+3  
+       2240 SLICE+2        
+       2241 BUILD_SET       26473
+       2244 BUILD_SET        8233
+       2247 <47>           
+       2248 <47>           
+       2249 SLICE+2        
+       2250 DELETE_SLICE+0 
+       2251 FOR_ITER         8202 (to 10456)
+       2254 SLICE+2        
+       2255 SLICE+2        
+       2256 SLICE+2        
+       2257 SLICE+2        
+       2258 BUILD_MAP       15648
+       2261 SLICE+2        
+       2262 IMPORT_NAME     30575 (30575)
+       2265 SLICE+2        
+       2266 <45>           
+       2267 SLICE+2        
+       2268 <49>           
+       2269 UNARY_POSITIVE 
+       2270 SLICE+2        
+       2271 SLICE+2        
+       2272 SLICE+2        
+       2273 SLICE+2        
+       2274 SLICE+2        
+       2275 LOAD_ATTR       15648 (15648)
+       2278 SLICE+2        
+       2279 BUILD_SET       26473
+       2282 BUILD_SET       11040
+       2285 SLICE+2        
+       2286 <49>           
+       2287 UNARY_POSITIVE 
+       2288 SLICE+2        
+       2289 SLICE+2        
+       2290 SLICE+2        
+       2291 SLICE+2        
+       2292 SLICE+2        
+       2293 CONTINUE_LOOP   26984
+       2296 IMPORT_NAME      8293 (8293)
+       2299 IMPORT_STAR    
+       2300 POP_JUMP_IF_FALSE 25973
+       2303 INPLACE_DIVIDE 
+       2304 UNARY_POSITIVE 
+       2305 SLICE+2        
+       2306 SLICE+2        
+       2307 SLICE+2        
+       2308 SLICE+2        
+       2309 SLICE+2        
+       2310 SLICE+2        
+       2311 SLICE+2        
+       2312 SLICE+2        
+       2313 SLICE+2        
+       2314 BUILD_MAP       11040
+       2317 DELETE_SUBSCR  
+       2318 SLICE+2        
+       2319 <49>           
+       2320 UNARY_POSITIVE 
+       2321 SLICE+2        
+       2322 SLICE+2        
+       2323 SLICE+2        
+       2324 SLICE+2        
+       2325 SLICE+2        
+       2326 SLICE+2        
+       2327 SLICE+2        
+       2328 SLICE+2        
+       2329 SLICE+2        
+       2330 CONTINUE_LOOP   26984
+       2333 IMPORT_NAME      8293 (8293)
+       2336 JUMP_FORWARD    28021 (to 30360)
+       2339 POP_JUMP_IF_TRUE 26971
+       2342 FOR_ITER        15392 (to 17737)
+       2345 SLICE+2        
+       2346 JUMP_IF_TRUE_OR_POP 30313
+       2349 JUMP_IF_FALSE_OR_POP 14964
+       2352 UNARY_POSITIVE 
+       2353 SLICE+2        
+       2354 SLICE+2        
+       2355 SLICE+2        
+       2356 SLICE+2        
+       2357 SLICE+2        
+       2358 SLICE+2        
+       2359 SLICE+2        
+       2360 SLICE+2        
+       2361 SLICE+2        
+       2362 LOAD_ATTR       11552 (11552)
+       2365 DELETE_SUBSCR  
+       2366 SLICE+2        
+       2367 <49>           
+       2368 UNARY_POSITIVE 
+       2369 SLICE+2        
+       2370 SLICE+2        
+       2371 SLICE+2        
+       2372 SLICE+2        
+       2373 SLICE+2        
+       2374 SLICE+2        
+       2375 SLICE+2        
+       2376 SLICE+2        
+       2377 SLICE+2        
+       2378 CONTINUE_LOOP   26984
+       2381 IMPORT_NAME      8293 (8293)
+       2384 JUMP_FORWARD    28021 (to 30408)
+       2387 POP_JUMP_IF_TRUE 27227
+       2390 FOR_ITER        15904 (to 18297)
+       2393 SLICE+2        
+       2394 JUMP_IF_TRUE_OR_POP 30313
+       2397 JUMP_IF_FALSE_OR_POP 14964
+       2400 UNARY_POSITIVE 
+       2401 SLICE+2        
+       2402 SLICE+2        
+       2403 SLICE+2        
+       2404 SLICE+2        
+       2405 SLICE+2        
+       2406 SLICE+2        
+       2407 SLICE+2        
+       2408 SLICE+2        
+       2409 SLICE+2        
+       2410 BUILD_MAP        8294
+       2413 BUILD_MAP       15904
+       2416 DELETE_SUBSCR  
+       2417 SLICE+2        
+       2418 LOAD_ATTR        2618 (2618)
+       2421 SLICE+2        
+       2422 SLICE+2        
+       2423 SLICE+2        
+       2424 SLICE+2        
+       2425 SLICE+2        
+       2426 SLICE+2        
+       2427 SLICE+2        
+       2428 SLICE+2        
+       2429 SLICE+2        
+       2430 JUMP_FORWARD    28021 (to 30454)
+       2433 POP_JUMP_IF_TRUE 26971
+       2436 FOR_ITER         8236 (to 10675)
+       2439 JUMP_FORWARD    28021 (to 30463)
+       2442 POP_JUMP_IF_TRUE 27227
+       2445 FOR_ITER        15648 (to 18096)
+       2448 SLICE+2        
+       2449 JUMP_FORWARD    28021 (to 30473)
+       2452 POP_JUMP_IF_TRUE 27227
+       2455 FOR_ITER         8236 (to 10694)
+       2458 JUMP_FORWARD    28021 (to 30482)
+       2461 POP_JUMP_IF_TRUE 26971
+       2464 FOR_ITER         8202 (to 10669)
+       2467 SLICE+2        
+       2468 SLICE+2        
+       2469 SLICE+2        
+       2470 SLICE+2        
+       2471 CONTINUE_LOOP   26984
+       2474 IMPORT_NAME      8293 (8293)
+       2477 IMPORT_STAR    
+       2478 POP_JUMP_IF_FALSE 25973
+       2481 INPLACE_DIVIDE 
+       2482 UNARY_POSITIVE 
+       2483 SLICE+2        
+       2484 SLICE+2        
+       2485 SLICE+2        
+       2486 SLICE+2        
+       2487 SLICE+2        
+       2488 SLICE+2        
+       2489 SLICE+2        
+       2490 SLICE+2        
+       2491 SLICE+2        
+       2492 BUILD_MAP       11040
+       2495 DELETE_SUBSCR  
+       2496 SLICE+2        
+       2497 <49>           
+       2498 UNARY_POSITIVE 
+       2499 SLICE+2        
+       2500 SLICE+2        
+       2501 SLICE+2        
+       2502 SLICE+2        
+       2503 SLICE+2        
+       2504 SLICE+2        
+       2505 SLICE+2        
+       2506 SLICE+2        
+       2507 SLICE+2        
+       2508 CONTINUE_LOOP   26984
+       2511 IMPORT_NAME      8293 (8293)
+       2514 JUMP_FORWARD    28021 (to 30538)
+       2517 POP_JUMP_IF_TRUE 26971
+       2520 FOR_ITER        15392 (to 17915)
+       2523 SLICE+2        
+       2524 JUMP_IF_TRUE_OR_POP 30313
+       2527 JUMP_IF_FALSE_OR_POP 14964
+       2530 UNARY_POSITIVE 
+       2531 SLICE+2        
+       2532 SLICE+2        
+       2533 SLICE+2        
+       2534 SLICE+2        
+       2535 SLICE+2        
+       2536 SLICE+2        
+       2537 SLICE+2        
+       2538 SLICE+2        
+       2539 SLICE+2        
+       2540 LOAD_ATTR       11552 (11552)
+       2543 DELETE_SUBSCR  
+       2544 SLICE+2        
+       2545 <49>           
+       2546 UNARY_POSITIVE 
+       2547 SLICE+2        
+       2548 SLICE+2        
+       2549 SLICE+2        
+       2550 SLICE+2        
+       2551 SLICE+2        
+       2552 SLICE+2        
+       2553 SLICE+2        
+       2554 SLICE+2        
+       2555 SLICE+2        
+       2556 CONTINUE_LOOP   26984
+       2559 IMPORT_NAME      8293 (8293)
+       2562 JUMP_FORWARD    28021 (to 30586)
+       2565 POP_JUMP_IF_TRUE 27227
+       2568 FOR_ITER        15904 (to 18475)
+       2571 SLICE+2        
+       2572 JUMP_IF_TRUE_OR_POP 30313
+       2575 JUMP_IF_FALSE_OR_POP 14964
+       2578 UNARY_POSITIVE 
+       2579 SLICE+2        
+       2580 SLICE+2        
+       2581 SLICE+2        
+       2582 SLICE+2        
+       2583 SLICE+2        
+       2584 SLICE+2        
+       2585 SLICE+2        
+       2586 SLICE+2        
+       2587 SLICE+2        
+       2588 BUILD_MAP        8294
+       2591 BUILD_MAP       15904
+       2594 DELETE_SUBSCR  
+       2595 SLICE+2        
+       2596 LOAD_ATTR        2618 (2618)
+       2599 SLICE+2        
+       2600 SLICE+2        
+       2601 SLICE+2        
+       2602 SLICE+2        
+       2603 SLICE+2        
+       2604 SLICE+2        
+       2605 SLICE+2        
+       2606 SLICE+2        
+       2607 SLICE+2        
+       2608 SLICE+2        
+       2609 SLICE+2        
+       2610 SLICE+2        
+       2611 SLICE+2        
+       2612 POP_JUMP_IF_FALSE 29797
+       2615 <117>           28274
+       2618 SLICE+2        
+       2619 LOAD_ATTR        8202 (8202)
+       2622 SLICE+2        
+       2623 SLICE+2        
+       2624 SLICE+2        
+       2625 SLICE+2        
+       2626 SLICE+2        
+       2627 SLICE+2        
+       2628 SLICE+2        
+       2629 SLICE+2        
+       2630 SLICE+2        
+       2631 SLICE+2        
+       2632 SLICE+2        
+       2633 SLICE+2        
+       2634 STORE_ATTR      30065 (30065)
+       2637 BUILD_MAP       27491
+       2640 STORE_ATTR      28531 (28531)
+       2643 POP_JUMP_IF_FALSE 10356
+       2646 BUILD_MAP       25972
+       2649 IMPORT_FROM     11379 (11379)
+       2652 SLICE+2        
+       2653 IMPORT_NAME     30575 (30575)
+       2656 <44>           
+       2657 SLICE+2        
+       2658 POP_JUMP_IF_TRUE 27760
+       2661 BUILD_MAP       24436
+       2664 BUILD_MAP       25710
+       2667 LOAD_NAME       10616 (10616)
+       2670 UNARY_POSITIVE 
+       2671 SLICE+2        
+       2672 SLICE+2        
+       2673 SLICE+2        
+       2674 SLICE+2        
+       2675 SLICE+2        
+       2676 SLICE+2        
+       2677 SLICE+2        
+       2678 SLICE+2        
+       2679 SLICE+2        
+       2680 BUILD_MAP        8294
+       2683 IMPORT_NAME     30575 (30575)
+       2686 SLICE+2        
+       2687 STORE_SUBSCR   
+       2688 SLICE+2        
+       2689 BUILD_SET       26473
+       2692 BUILD_SET        2618
+       2695 SLICE+2        
+       2696 SLICE+2        
+       2697 SLICE+2        
+       2698 SLICE+2        
+       2699 SLICE+2        
+       2700 SLICE+2        
+       2701 SLICE+2        
+       2702 SLICE+2        
+       2703 SLICE+2        
+       2704 SLICE+2        
+       2705 SLICE+2        
+       2706 SLICE+2        
+       2707 SLICE+2        
+       2708 STORE_ATTR      30065 (30065)
+       2711 BUILD_MAP       27491
+       2714 STORE_ATTR      28531 (28531)
+       2717 POP_JUMP_IF_FALSE 10356
+       2720 BUILD_MAP       25972
+       2723 IMPORT_FROM     11379 (11379)
+       2726 SLICE+2        
+       2727 POP_JUMP_IF_TRUE 27760
+       2730 BUILD_MAP       24436
+       2733 BUILD_MAP       25710
+       2736 LOAD_NAME        8312 (8312)
+       2739 STORE_SLICE+3  
+       2740 SLICE+2        
+       2741 <49>           
+       2742 <44>           
+       2743 SLICE+2        
+       2744 BUILD_SET       26473
+       2747 BUILD_SET        2601
+       2750 SLICE+2        
+       2751 SLICE+2        
+       2752 SLICE+2        
+       2753 SLICE+2        
+       2754 SLICE+2        
+       2755 SLICE+2        
+       2756 SLICE+2        
+       2757 SLICE+2        
+       2758 SLICE+2        
+       2759 BUILD_MAP        8294
+       2762 IMPORT_NAME     30575 (30575)
+       2765 SLICE+2        
+       2766 STORE_SUBSCR   
+       2767 SLICE+2        
+       2768 BUILD_SET       26473
+       2771 BUILD_SET        2618
+**EOD**

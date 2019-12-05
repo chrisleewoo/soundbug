@@ -1,0 +1,31 @@
+import constants
+import containers
+import events
+import fileio
+import sequencer
+import util
+
+
+
+
+
+
+# Instantiate a MIDI Pattern (contains a list of tracks)
+pattern = containers.Pattern()
+# Instantiate a MIDI Track (contains a list of MIDI events)
+track = containers.Track()
+# Append the track to the pattern
+pattern.append(track)
+# Instantiate a MIDI note on event, append it to the track
+on = events.NoteOnEvent(tick=0, velocity=20, pitch=64)
+track.append(on)
+# Instantiate a MIDI note off event, append it to the track
+off = events.NoteOffEvent(tick=100, pitch=32)
+track.append(off)
+# Add the end of track event, append it to the track
+eot = events.EndOfTrackEvent(tick=1)
+track.append(eot)
+# Print out the pattern
+print pattern
+# Save the pattern to disk
+fileio.write_midifile("example.mid", pattern)

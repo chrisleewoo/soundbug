@@ -1,0 +1,47 @@
+
+    random_list_of_nums = [12, 8, 3, 20, 11]
+    bubble_sort_bad(random_list_of_nums)
+    for i in range(len(nums) - 1):
+         if nums[i] > nums[i + 1]:
+                nums[i], nums[i + 1] = nums[i + 1], nums[i]
+    for i in range(len(nums) - 1):
+         if nums[i] > nums[i + 1]:
+                nums[i], nums[i + 1] = nums[i + 1], nums[i]
+    for i in range(len(nums) - 1):
+         if nums[i] > nums[i + 1]:
+    for i in range(len(nums) - 1):
+         if nums[i] > nums[i + 1]:
+                nums[i], nums[i + 1] = nums[i + 1], nums[i]
+    for i in range(len(nums) - 1):
+        print('bad: ', random_list_of_nums)
+        bubble_sort_good(random_list_of_nums)
+     swapped = True
+    while swapped:
+         swapped = False
+         for i in range(len(nums) - 1):
+             if nums[i] > nums[i + 1]:
+                 nums[i], nums[i + 1] = nums[i + 1], nums[i]
+                 swapped = True
+         for i in range(len(nums) - 1):
+             if nums[i] > nums[i + 1]:
+         for i in range(len(nums) - 1):
+             if nums[i] > nums[i + 1]:
+                 nums[i], nums[i + 1] = nums[i + 1], nums[i]
+                 swapped = True
+         for i in range(len(nums) - 1):
+             if nums[i] > nums[i + 1]:
+         for i in range(len(nums) - 1):
+     while swapped:
+         swapped = False
+         for i in range(len(nums) - 1):
+             if nums[i] > nums[i + 1]:
+         for i in range(len(nums) - 1):
+             if nums[i] > nums[i + 1]:
+         for i in range(len(nums) - 1):
+             if nums[i] > nums[i + 1]:
+         for i in range(len(nums) - 1):
+             if nums[i] > nums[i + 1]:
+         for i in range(len(nums) - 1):
+     while swapped:
+        print('good: ', random_list_of_nums)
+

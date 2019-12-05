@@ -1,0 +1,28 @@
+import fileinput
+
+for line in fileinput.input():
+	str = line
+	get_group(str)
+
+
+>>if (<KEY> in str):
+
+
+
+
+Keys:
+
+01 POP
+02 ROT (rotate)
+03 DUP
+04 LOAD
+05 STORE   (all store ops)
+06 GET
+07 BREAK || JUMP
+08 CONT
+09 DEL   (all deleters)
+10 BUILD || MAKE
+11 CALL  (does this appear?)
+12 IMPORT
+13 INPLACE || BINARY || UNARY 
+
