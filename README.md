@@ -8,6 +8,8 @@ This can be useful for debugging or understanding data flow, but it still could 
 Thanks to VishnuBob for the wonderful python midi library
 https://github.com/vishnubob/python-midi
 
+Define which function to use in Trace.py, and specify output filename in MidiGen.py
+
 Use command.x to automatically redirect inputs from Trace.py > Dis.py > MidiGen.py
 
 See the .DAT files for reading the outputs of trace and dis functions
