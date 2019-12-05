@@ -5,7 +5,7 @@ Transforms a python function or entire program into a midi file. Code changed to
 This can be useful for debugging or understanding data flow, but it still could be imporved upon.
 
 Thanks to VishnuBob for the wonderful python midi library
-<link>
+https://github.com/vishnubob/python-midi
 
 Use command.x to automatically redirect inputs from Trace.py > Dis.py > MidiGen.py
 
